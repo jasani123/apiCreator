@@ -61,6 +61,4 @@ Visit the following URL followed by _id value of specific document for PUT/DELET
 
 https://localhost:3000/api/car/._id_value
 
-Use postman to quickly test your APIs.
-
-Copyright (c) Prabhat 2015
+Use postman to quickly test your APIs
