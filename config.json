@@ -1,0 +1,13 @@
+{
+"accessKeyId": "",
+"secretAccessKey": "",	
+"bucket": "api-new",
+
+ "host":"54.172.108.122",
+ "port": "24224",
+ "timeout": "3.0",
+ "reconnectInterval": "600000",
+
+"github" : "https://github.com/jasani123/apiCreator.git",
+ "userbucket" :"project-user"
+}

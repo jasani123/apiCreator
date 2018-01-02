@@ -1,0 +1,14 @@
+version: "2"
+services:
+  mongoapicreator:
+    image: mongo
+    command: mongod --smallfiles
+  
+  apicreator:
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongoapicreator
+    volumes_from:
+      - projtrackerapp:/models

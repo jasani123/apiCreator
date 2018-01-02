@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "ad server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prabhat Sharma (hi.prabhat@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.5.3",
+    "express": "^4.12.3",
+    "mongoose": "4.8.5",
+    "node-restful": "^0.1.18",
+	"slack-node":"0.1.8",
+	"fluent-logger":"2.3.0",
+	"node-ec2-metadata":"0.0.5",
+	"q":"1.5.0"
+	
+  }
+}
